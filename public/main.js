@@ -1,9 +1,17 @@
 console.log('inside javascript changing')
 
 const toggleBtn = document.getElementById('toggle-btn')
-const cloudBanner = document.getElementById('cloud-banner')
+let cloudBanner = document.getElementById('cloud-banner')
 
-toggleBtn.addEventListener('click',(e) =>{
-    console.log('what is e', e)
-    console.log('i am clicking')
-})
+
+function toggleCloud(){
+
+    if(cloudBanner.style.display == 'none'){
+        cloudBanner.style.display = "block"
+    }else{
+        cloudBanner.style.display = "none"
+    }
+
+}
+
+toggleBtn.addEventListener('click',toggleCloud())
