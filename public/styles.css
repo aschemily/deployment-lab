@@ -1,3 +1,10 @@
+*{
+    background-image: linear-gradient(to bottom right, rgb(200, 224, 247), rgb(40, 5, 235));
+    
+}
+
 h1{
-    color: blue;
+    color: rgb(255, 208, 0);
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
 }
