@@ -1,11 +1,11 @@
 console.log('inside javascript changing')
 
 const toggleBtn = document.getElementById('toggle-btn')
-let cloudBanner = document.getElementById('cloud-banner')
+
 
 
 function toggleCloud(){
-
+const cloudBanner = document.getElementById('cloud-banner')
     if(cloudBanner.style.display == 'none'){
         cloudBanner.style.display = "block"
     }else{
