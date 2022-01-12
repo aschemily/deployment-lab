@@ -14,4 +14,4 @@ const cloudBanner = document.getElementById('cloud-banner')
 
 }
 
-toggleBtn.addEventListener('click',toggleCloud())
+toggleBtn.addEventListener('click',toggleCloud)
