@@ -1,23 +1,46 @@
 h1{
     color: rgb(255, 208, 0);
     font-family: 'Luckiest Guy', cursive;
-    font-size: 50px;
+    font-size: 70px;
+    text-align: center;
 }
+
+#img-url{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#add-btn{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 157);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 15px;
+  color: rgb(117, 31, 31);
+}
+
 
 #banner{
     width: 100%;
-    height: auto;
-    position: absolute;
+    height: 100%;
     display: block;
+    position: absolute;
+    margin-top: 100px;
+
 }
 
 #toggle-btn{
   display:block;
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   background-color: rgb(0, 217, 255);
   font-family: 'Luckiest Guy', cursive;
   font-size: 15px;
+  margin: 20px;
 
 }

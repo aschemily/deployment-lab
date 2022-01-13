@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/aschemily/deployment-lab#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "rollbar": "^2.24.0"
   }
 }
